@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.firstsec{
+    background-color: #1F2937;
+    height: 280px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14%;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.logo {
+}
+
+.headerlinks {
+    font-size: 9px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 1px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.subtext {
+    color: #E5E7EB;
+    font-size: 10px;
+    font-weight: lighter;
+    padding-bottom: 5px;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: white;
+    width: 70px;
+    font-size: 12px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 3px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 14%;
+}
+
+.descimg {
+    height: 125px;
+    width: 270px;
+}
+
+.secondsec {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.sectitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.placeholders {
+    display: flex;
+}
+
+.conts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+.cont1, .cont2, .cont3, .cont4 {
+    border: 2px solid #3882F6;
+    height: 85px;
+    width: 85px;
+    border-radius: 10%;
+}
+
+.contbox {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    align-items: center;
+    width: 85px;
+}
+
+.subtext2 {
+    color: #1F2937;
+    font-size: 9px;
+    font-weight:400;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.thirdsec {
+    background-color: #E5E7EB;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 400px;
+    color: #1F2937;
+    font-size: 17.5px;
+    font-weight: 400;
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.quotesign {
+    display: flex;
+    margin-left: 250px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.fourthsec {
+    background: white;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actbox {
+    background: #3882F6;
+    width: 550px;
+    height: 80px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.actxt {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+.acttitle {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+}
+
+.actsub {
+    color: #e5e7eb;
+    font-size: 9px;
+    display: flex;
+}
+
+.signup2 {
+    background: transparent;
+    color: #e5e7eb;
+    border: 1px solid #e5e7eb;
+    width: 70px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: lighter;
+    cursor: pointer;
+    padding: 3px;
+    margin-left: 25px;
+}
+
+.footer {
+    height: 50px;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+}
+
+.footxt {
+    color: #e5e7eb;
+    font-size: 9px;
+    font-weight: 300;
+    display: flex;
+    margin: auto;
+}
+
+
+
